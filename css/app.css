@@ -124,7 +124,7 @@ p {
 #bingo-number {
   font-size: 12em;
   font-weight: 700;
-  background-image: url("../imgs/bingo-ball.png");
+  background-image: url("../imgs/bingo-ball.svg");
   background-repeat: no-repeat;
   width: 451px;
   height: 451px;
