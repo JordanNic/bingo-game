@@ -105,4 +105,9 @@ p {
   font-weight: 300;
 }
 
+/* BINGO GAME STYLES */
+#bingo-number {
+  font-size: 5em;
+}
+
 /*# sourceMappingURL=app.css.map */
