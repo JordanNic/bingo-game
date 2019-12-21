@@ -1,0 +1,54 @@
+/* TYPOGRAPHY */
+
+h1,
+.h1,
+h2,
+.h2 {
+    margin-top: 0;
+    margin-bottom: .5em;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    line-height: 1.5em;
+    color: $black;
+}
+
+h3,
+.h3 {
+    margin-top: 0;
+    margin-bottom: .3em;
+    color: $black;
+}
+
+p {
+    margin-bottom: 1em;
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: $font-size;
+    font-weight: 300;
+    line-height: $line-height;
+}
+
+#strong {
+    font-weight: 900;
+}
+
+/* Home page type styles */
+
+.headline {
+    h1 {
+        font-size: 3em;
+        margin: 0 0 0.3em 0;
+    }
+
+    h2 {
+        margin-bottom: 1em;
+    }
+
+    p {
+        margin: 0 0 1em 0;
+        color: $black;
+        font-weight: 300;
+    }
+}
+
+@media (max-width: $break-small) {}
